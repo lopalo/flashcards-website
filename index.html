@@ -3,8 +3,28 @@
     <head>
         <title>Flashcards</title>
         <meta charset="utf-8" />
-    </head>
-    <body>
-        <h1>Flashcards App</h1>
-    </body>
+
+        
+<script type="module" nonce="NXxMGydcoasBNtbg4YCSEQ==">
+import init, * as bindings from '/flashcards-ab9eab5bca0089f9.js';
+const wasm = await init('/flashcards-ab9eab5bca0089f9_bg.wasm');
+
+
+window.wasmBindings = bindings;
+
+
+dispatchEvent(new CustomEvent("TrunkApplicationStarted", {detail: {wasm}}));
+
+</script>
+        <link rel="stylesheet" href="/index-3251730026ab3239.css" integrity="sha384&#x2D;Rbo1GqrzrPnmEA6u6OCiqkkiNzM9hxEz0fwdkiTfl9FdC0QXpupptu&#x2B;tHfKksxy7"/>
+
+        <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+        <link rel="stylesheet" href="https://unpkg.com/material-components-web@latest/dist/material-components-web.min.css" >
+
+        <script src="https://unpkg.com/material-components-web@latest/dist/material-components-web.min.js"></script>
+
+    
+<link rel="modulepreload" href="/flashcards-ab9eab5bca0089f9.js" crossorigin=anonymous integrity="sha384-wD9tq86MBx4F8Juvb2zLNXQ6KsZsi3KFYy3zMdRKxdzdJBrg/7PCxIV6nQXVylsT">
+<link rel="preload" href="/flashcards-ab9eab5bca0089f9_bg.wasm" crossorigin=anonymous integrity="sha384-gsTm8CDD5Q5hkXhWPIA+CgzH0wCJt26DM26fvKFmRV+YM4BSKb7Pz8Q2E0tA0+1L" as="fetch" type="application/wasm"></head>
+    <body></body>
 </html>
